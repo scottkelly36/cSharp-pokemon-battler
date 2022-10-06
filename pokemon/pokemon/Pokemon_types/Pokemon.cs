@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace pokemon.Pokemon_types
 {
     public class Pokemon
-    {
+    {  
        public string name;
        public int hitpoints;
        public int attackDamage;
@@ -55,5 +55,7 @@ namespace pokemon.Pokemon_types
                 return false;
             }
         }
-    }
+
+       
+    } 
 }

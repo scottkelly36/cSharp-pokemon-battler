@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace pokemon.Pokemon_types
 {
-    public class FireType : Pokemon
+    public class WaterType : Pokemon
     {
-       public FireType(string name, int hitpoints, int attackDamage, string move = "Tackle", string type = "Normal") : base(name, hitpoints, attackDamage, move) {
-            this.type = "Fire";        
+        public WaterType(string name, int hitpoints, int attackDamage, string move = "Tackle", string type = "Normal") : base(name, hitpoints, attackDamage, move)
+        {
+            this.type = "Water";
         }
         public bool isEffectiveAgainst(string type)
-            {
-                if(type == "Grass")
+        {
+            if (type == "Fire")
             {
                 return true;
             }
@@ -21,10 +22,10 @@ namespace pokemon.Pokemon_types
             {
                 return false;
             }
-            }
+        }
         public bool isWeakTo(string type)
         {
-            if(type == "Water")
+            if (type == "Grass")
             {
                 return true;
             }

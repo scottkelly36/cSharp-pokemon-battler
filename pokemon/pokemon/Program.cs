@@ -12,9 +12,9 @@ namespace pokemon
     {
         static void Main(string[] args)
         {
-            Pokemon pokemon1 = new Pokemon("Charmander", 10, 10);
-            Console.WriteLine(pokemon1.isEffectiveAgainst());
             
+            FireType fire1 = new FireType("sjnbcjnb", 10, 10);
+            Console.WriteLine(fire1.useMove());
             Console.ReadLine();
         }
     }

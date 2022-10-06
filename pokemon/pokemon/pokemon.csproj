@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Pokemon_types\GrassType.cs" />
+    <Compile Include="Pokemon_types\WaterType.cs" />
     <Compile Include="Pokemon_types\FireType.cs" />
     <Compile Include="Pokemon_types\Pokemon.cs" />
     <Compile Include="Program.cs" />
