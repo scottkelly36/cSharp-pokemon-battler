@@ -1,16 +1,16 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using pokemon.Pokemon_types;
 
-
-namespace UnitTestProject1
+namespace UnitTestProject3
 {
     [TestClass]
-    public class pokemontest1
+    public class TestFireType
     {
         [TestMethod]
-        public void TestMethod1()
+        public void FireTypeName()
         {
-            Assert.IsTrue(false);
+            
         }
     }
 }
