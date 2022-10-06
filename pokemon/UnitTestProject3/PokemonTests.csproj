@@ -53,6 +53,10 @@
     <Compile Include="PokemonNormalType.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="GrassType.cs" />
+    <Compile Include="CharmanderSpecies.cs" />
+    <Compile Include="SquirtleSpecies.cs" />
+    <Compile Include="BulbasaurSpecies.cs" />
+    <Compile Include="RattataSpecies.cs" />
     <Compile Include="WaterType.cs" />
   </ItemGroup>
   <ItemGroup>

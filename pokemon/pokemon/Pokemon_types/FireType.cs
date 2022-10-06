@@ -8,7 +8,7 @@ namespace pokemon.Pokemon_types
 {
     public class FireType : Pokemon
     {
-       public FireType(string name, int hitpoints, int attackDamage, string move = "Tackle", string type = "Normal") : base(name, hitpoints, attackDamage, move) {
+       public FireType(string name, int hitpoints, int attackDamage, string move = "Tackle", string type = "Fire") : base(name, hitpoints, attackDamage, move) {
             this.type = "Fire";        
         }
         public bool isEffectiveAgainst(string type)
